@@ -1,14 +1,59 @@
 * {
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
 body{
-	font-family: Helvetica, Arial, sans-serif;
+	background: linear-gradient(to right, #606c88, #3f4c6b);
 }
 
-h1 {
-	font-size: 300px;
+.page-content{
+	// background: linear-gradient(to right, #000000, #434343);
+	color: #DCDCDC;
+	line-spacing: 1.25px;
+}
+
+.page-content a{
+	color: #FF69B4;
+}
+
+.nav-bar{
 	text-align: center;
-	color: chartreuse;
-	font-size: 12vw;
+}
+
+.portfolio-image img{
+	 width: 89%;
+	// padding-left: 90px;
+	// margin-left: 24%;
+}
+
+.biography{
+	//  text-align: center;
+	// width: 50%;
+	// margin-left: 285px;
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+}
+
+.home-footer{
+	// text-align: center;
+}
+
+.bbc-container img{
+	width: 50%;
+}
+
+
+.brews-container p{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.brews-container img{
+	width: 25%;
+}
+
+.navbar a{
+	color: #DCDCDC;
 }
