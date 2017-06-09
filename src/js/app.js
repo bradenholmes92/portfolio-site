@@ -21,24 +21,24 @@ function controllerRouter(){
    if(currentRoute === ''){
       appContainer.innerHTML =`
     <div class="portfolio-image col-md-6">
-      <img src="file:///Users/bradenholmes92/Desktop/braden_holmes_960.jpg">
+      <img src="./braden_holmes_960.jpg">
     </div>
     <div class="biography col-md-5">
       <h3>Braden Holmes</h3>
       <p>Hello there! I'm a former liquor slinger and grounds worker
          turned front-end developer! I recently graduated from The Iron Yard's 3 month
          bootcamp and am looking to expand my horizons. Apart from that, I also have a
-         deep love for music(I play guitar in a band), archery, the outdoors, and
+         deep love for music (I play guitar in a band), archery, the outdoors, and
          the arts. I enjoy the act of creating new things and keeping myself
          as sharp as possible.
       </p>
       <p>
-         I'll have a link to my resume below this bio
+         There is a link to my resume below this bio,
          and a couple of examples of the work I've done can be found on the "Projects"
          page. My contact info can be found at the bottom of this page. Hope to hear from
-         you soon! :)
+         you soon!
        </p>
-       <p><a href="file:///Users/bradenholmes92/Desktop/Braden%20Holmes%20Resume.pdf" target="_blank">My Resume</a><p>
+       <p class="resume"><a href="https://drive.google.com/file/d/0B1eZwfOdQFhpdnZhX2daU1VnbkU/view?usp=sharing" target="_blank">My Resume</a><p>
      </div>
 
       <footer class="home-footer col-md-10">
@@ -52,7 +52,7 @@ function controllerRouter(){
    if(currentRoute === "projects"){
      appContainer.innerHTML = `
      <div class="bbc-container text-center">
-      <img src="file:///Users/bradenholmes92/Desktop/Screen%20Shot%202017-04-27%20at%208.24.31%20PM.png">
+      <img src="./BBC.png">
      <h1>BBC Radio</h1>
      <p>This project pulls from the BBC Radio API and displays a list of the
      top tracks featured on two different BBC playlists, as well as
@@ -64,7 +64,7 @@ function controllerRouter(){
      <p><a href="https://github.com/bradenholmes92/assignment-20" target="_blank">See project code here</a><p>
      </div>
      <div class="brews-container text-center">
-      <img src="file:///Users/bradenholmes92/Desktop/Screen%20Shot%202017-04-27%20at%208.21.21%20PM.png">
+      <img src="./brewsmuse.png">
      <h1>BrewsMuse</h1>
      <p>BrewsMuse is a mobile-first application that allows you to find
       bars in your local area, and find out what they have on tap for the
